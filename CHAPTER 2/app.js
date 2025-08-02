@@ -22,7 +22,7 @@ let specialMessage = "▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬�
 alert(specialMessage);
 
 // 6. Email alert
-let email = "example@example.com";
+let email = "saylani@gmail.com";
 alert("My email address is " + email);
 
 // 7. Book message

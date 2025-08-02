@@ -30,4 +30,4 @@ var book = "A smarter way to learn JavaScript";
 alert("I am trying to learn from the Book " + book);
 
 // 8. Display message in browser
-document.write("Yah! I can write HTML content through JavaScript");
+document.write("JavaScript");

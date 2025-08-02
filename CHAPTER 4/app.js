@@ -9,7 +9,6 @@ let _value;
 let name123;
 let user_age;
 
-
 // 3. Display rules in browser
 document.write("<h1>Rules for naming JS variables</h1>");
 document.write(

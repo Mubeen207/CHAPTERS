@@ -135,10 +135,11 @@
 // let result1 = document.getElementById("result");
 // result1.innerHTML = "Total currency in PKR: " + totalPKR;
 //-----------------------------------------------------------------------------------
-let number = 10;
+// let number = 10;
 
-let finalResult = ((number + 5) * 10) / 2;
+// let finalResult = ((number + 5) * 10) / 2;
 
-let result1 = document.getElementById("result");
-result1.innerHTML =
-  "Result of (( " + number + " + 5 ) × 10 ) ÷ 2 is: " + finalResult;
+// let result1 = document.getElementById("result");
+// result1.innerHTML =
+//   "Result of (( " + number + " + 5 ) × 10 ) ÷ 2 is: " + finalResult;
+//--------------------------------------------------------------------------------------

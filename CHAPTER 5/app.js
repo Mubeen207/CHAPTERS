@@ -61,13 +61,23 @@
 // result1.innerHTML = result;
 //-------------------------------------------------------------------------------
 
-let ticketPrice = 600;
-let numberOfTickets = 5;
-let totalCost = ticketPrice * numberOfTickets;
-let result = document.getElementById("result");
-result.innerHTML =
-  "Total cost to buy " +
-  numberOfTickets +
-  " tickets to a movie is " +
-  totalCost +
-  " PKR.";
+// let ticketPrice = 600;
+// let numberOfTickets = 5;
+// let totalCost = ticketPrice * numberOfTickets;
+// let result = document.getElementById("result");
+// result.innerHTML =
+//   "Total cost to buy " +
+//   numberOfTickets +
+//   " tickets to a movie is " +
+//   totalCost +
+//   " PKR.";
+//-------------------------------------------------------------------------------
+
+let number = 5;
+let result = "";
+
+for (let i = 1; i <= 10; i++) {
+  result = result + number + " x " + i + " = " + number * i + "<br>";
+}
+let result1 = document.getElementById("result");
+result1.innerHTML = result;

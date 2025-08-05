@@ -128,9 +128,17 @@
 // let result1 = document.getElementById("result");
 // result1.innerHTML = result;
 //----------------------------------------------------------------------------------
-ShoppingCart = document.getElementById("ShoppingCart");
-ShoppingCart.innerHTML = "Currency in PKR";
-let totalPKR = 10 * 278 + 25 * 74;
+// ShoppingCart = document.getElementById("ShoppingCart");
+// ShoppingCart.innerHTML = "Currency in PKR";
+// let totalPKR = 10 * 278 + 25 * 74;
+
+// let result1 = document.getElementById("result");
+// result1.innerHTML = "Total currency in PKR: " + totalPKR;
+//-----------------------------------------------------------------------------------
+let number = 10;
+
+let finalResult = ((number + 5) * 10) / 2;
 
 let result1 = document.getElementById("result");
-result1.innerHTML = "Total currency in PKR: " + totalPKR;
+result1.innerHTML =
+  "Result of (( " + number + " + 5 ) × 10 ) ÷ 2 is: " + finalResult;

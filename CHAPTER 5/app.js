@@ -103,6 +103,8 @@
 // let result1 = document.getElementById("result");
 // result1.innerHTML = output;
 //--------------------------------------------------------------------------------
+ShoppingCart = document.getElementById("ShoppingCart");
+ShoppingCart.innerHTML = "Shopping Cart";
 let priceItem1 = 650;
 
 let priceItem2 = 100;

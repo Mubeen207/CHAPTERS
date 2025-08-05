@@ -82,23 +82,24 @@
 // let result1 = document.getElementById("result");
 // result1.innerHTML = result;
 //---------------------------------------------------------------------------------
-let celsius = 30;
+// let celsius = 30;
 
-let fahrenheitFromCelsius = (celsius * 9) / 5 + 32;
+// let fahrenheitFromCelsius = (celsius * 9) / 5 + 32;
 
-let fahrenheit = 86;
+// let fahrenheit = 86;
 
-let celsiusFromFahrenheit = ((fahrenheit - 32) * 5) / 9;
+// let celsiusFromFahrenheit = ((fahrenheit - 32) * 5) / 9;
 
-let output =
-  celsius +
-  "°C is " +
-  fahrenheitFromCelsius +
-  "°F<br>" +
-  fahrenheit +
-  "°F is " +
-  celsiusFromFahrenheit +
-  "°C";
+// let output =
+//   celsius +
+//   "°C is " +
+//   fahrenheitFromCelsius +
+//   "°F<br>" +
+//   fahrenheit +
+//   "°F is " +
+//   celsiusFromFahrenheit +
+//   "°C";
 
-let result1 = document.getElementById("result");
-result1.innerHTML = output;
+// let result1 = document.getElementById("result");
+// result1.innerHTML = output;
+//--------------------------------------------------------------------------------

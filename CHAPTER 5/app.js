@@ -16,7 +16,8 @@ let mul = num1 * num2;
 let div = num1 / num2;
 let mod = num1 % num2;
 
-document.getElementById("output").innerHTML =
+let result = document.getElementById("result");
+result.innerHTML =
   "Sum: " +
   sum +
   "<br>" +

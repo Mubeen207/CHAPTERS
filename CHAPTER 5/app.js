@@ -34,28 +34,40 @@
 //   mod;
 //--------------------------------------------------------------------------------------------
 
-let number;
+// let number;
 
-let result = "Value after variable declaration is: " + number + "<br>";
-number = 5;
+// let result = "Value after variable declaration is: " + number + "<br>";
+// number = 5;
 
-result = result + "Initial value " + number + "<br>";
+// result = result + "Initial value " + number + "<br>";
 
-number++;
+// number++;
 
-result = result + "Value after increment is " + number + "<br>";
+// result = result + "Value after increment is " + number + "<br>";
 
-number = number + 7;
+// number = number + 7;
 
-result = result + "Value after addition 7 is " + number + "<br>";
+// result = result + "Value after addition 7 is " + number + "<br>";
 
-number--;
+// number--;
 
-result = result + "Value after decrement is " + number + "<br>";
+// result = result + "Value after decrement is " + number + "<br>";
 
-let remainder = number % 3;
+// let remainder = number % 3;
 
-result = result + "The remainder 3 is " + remainder;
+// result = result + "The remainder 3 is " + remainder;
 
-let result1 = document.getElementById("result");
-result1.innerHTML = result;
+// let result1 = document.getElementById("result");
+// result1.innerHTML = result;
+//-------------------------------------------------------------------------------
+
+let ticketPrice = 600;
+let numberOfTickets = 5;
+let totalCost = ticketPrice * numberOfTickets;
+let result = document.getElementById("result");
+result.innerHTML =
+  "Total cost to buy " +
+  numberOfTickets +
+  " tickets to a movie is " +
+  totalCost +
+  " PKR.";

@@ -34,3 +34,28 @@
 //   mod;
 //--------------------------------------------------------------------------------------------
 
+let number;
+
+let result = "Value after variable declaration is: " + number + "<br>";
+number = 5;
+
+result = result + "Initial value " + number + "<br>";
+
+number++;
+
+result = result + "Value after increment is " + number + "<br>";
+
+number = number + 7;
+
+result = result + "Value after addition 7 is " + number + "<br>";
+
+number--;
+
+result = result + "Value after decrement is " + number + "<br>";
+
+let remainder = number % 3;
+
+result = result + "The remainder 3 is " + remainder;
+
+let result1 = document.getElementById("result");
+result1.innerHTML = result;

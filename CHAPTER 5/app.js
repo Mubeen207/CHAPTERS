@@ -73,11 +73,32 @@
 //   " PKR.";
 //-------------------------------------------------------------------------------
 
-let number = 5;
-let result = "";
+// let number = 5;
+// let result = "";
 
-for (let i = 1; i <= 10; i++) {
-  result = result + number + " x " + i + " = " + number * i + "<br>";
-}
+// for (let i = 1; i <= 10; i++) {
+//   result = result + number + " x " + i + " = " + number * i + "<br>";
+// }
+// let result1 = document.getElementById("result");
+// result1.innerHTML = result;
+//---------------------------------------------------------------------------------
+let celsius = 30;
+
+let fahrenheitFromCelsius = (celsius * 9) / 5 + 32;
+
+let fahrenheit = 86;
+
+let celsiusFromFahrenheit = ((fahrenheit - 32) * 5) / 9;
+
+let output =
+  celsius +
+  "°C is " +
+  fahrenheitFromCelsius +
+  "°F<br>" +
+  fahrenheit +
+  "°F is " +
+  celsiusFromFahrenheit +
+  "°C";
+
 let result1 = document.getElementById("result");
-result1.innerHTML = result;
+result1.innerHTML = output;

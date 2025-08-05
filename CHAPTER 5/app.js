@@ -105,30 +105,23 @@
 //--------------------------------------------------------------------------------
 let priceItem1 = 650;
 
-  // b. Price of item 2
-  let priceItem2 = 100;
+let priceItem2 = 100;
 
-  // c. Quantity of item 1
-  let qtyItem1 = 3;
+let qtyItem1 = 3;
 
-  // d. Quantity of item 2
-  let qtyItem2 = 7;
+let qtyItem2 = 7;
 
-  // e. Shipping charges
-  let shippingCharges = 100;
+let shippingCharges = 100;
 
-  // Calculate total cost
-  let totalCost = (priceItem1 * qtyItem1) + (priceItem2 * qtyItem2) + shippingCharges;
+let totalCost = priceItem1 * qtyItem1 + priceItem2 * qtyItem2 + shippingCharges;
 
-  // Create receipt text
-  let receipt = `
-    Price of item 1 is ${priceItem1} <br>
-    Quantity of item 1 is ${qtyItem1} <br>
-    Price of item 2 is ${priceItem2} <br>
-    Quantity of item 2 is ${qtyItem2} <br>
-    Shipping Charges: ${shippingCharges} <br><br>
-    <strong>Total cost of your order is: ${totalCost} PKR</strong>
-  `;
+let result = "";
+result += "Price of item 1 is " + priceItem1 + "<br>";
+result += "Quantity of item 1 is " + qtyItem1 + "<br>";
+result += "Price of item 2 is " + priceItem2 + "<br>";
+result += "Quantity of item 2 is " + qtyItem2 + "<br>";
+result += "Shipping Charges " + shippingCharges + "<br><br>";
+result += "Total cost of your order is " + totalCost;
 
-  // Show in browser
-  document.getElementById("receipt").innerHTML = receipt;
+let result1 = document.getElementById("result");
+result1.innerHTML = result;
